@@ -16,5 +16,23 @@ namespace Proyecto_CafeDorado
         {
             InitializeComponent();
         }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            int incremento = 1;
+
+            if (pbr.Value < 100)
+            {
+                pbr.Value += incremento;
+                porcentaje.Text = pbr.Value.ToString() + "%";
+            }
+            else
+            {
+                timer1.Stop();
+                this.Hide();
+                frmMenu FormMenu = new frmMenu();
+                FormMenu.Show();
+            }
+        }
     }
 }
