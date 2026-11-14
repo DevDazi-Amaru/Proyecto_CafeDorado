@@ -124,13 +124,10 @@ namespace Proyecto_CafeDorado
                 {
                     // El usuario y la contraseña son correctos, redirigir a la ventana principal
                     SesionActiva.Codigo = usuario;
-                    DialogResult ok = MessageBox.Show("Bienvenido... Entrando al sistema. \n presione ok para continuar", "Sistema", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    if (ok == DialogResult.OK)
-                    {
-                        frmLoading loadingForm = new frmLoading();
-                        loadingForm.Show(); 
-                        this.Hide();
-                    }
+                    SesionActiva.Rol = rol;
+                    frmLoading loadingForm = new frmLoading();
+                    loadingForm.Show(); 
+                    this.Hide();
 
                 }
                 else
