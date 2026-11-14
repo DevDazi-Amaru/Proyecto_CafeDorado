@@ -83,6 +83,16 @@ namespace Proyecto_CafeDorado.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap LOGO_CAFEDORADO_NOTRANSPARENTE {
+            get {
+                object obj = ResourceManager.GetObject("LOGO_CAFEDORADO_NOTRANSPARENTE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap LOGO_CAFEDORADO_TRANSPARENTE {
             get {
                 object obj = ResourceManager.GetObject("LOGO_CAFEDORADO_TRANSPARENTE", resourceCulture);
