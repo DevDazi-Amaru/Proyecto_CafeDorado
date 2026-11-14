@@ -43,6 +43,7 @@
             // 
             this.guna2BorderlessForm1.BorderRadius = global::Proyecto_CafeDorado.Properties.Settings.Default.Border;
             this.guna2BorderlessForm1.ContainerControl = this;
+            this.guna2BorderlessForm1.DockForm = false;
             this.guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
             this.guna2BorderlessForm1.TransparentWhileDrag = true;
             // 
@@ -105,7 +106,7 @@
             this.porcentaje.BackColor = System.Drawing.Color.Transparent;
             this.porcentaje.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.porcentaje.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
-            this.porcentaje.Location = new System.Drawing.Point(368, 95);
+            this.porcentaje.Location = new System.Drawing.Point(365, 95);
             this.porcentaje.Name = "porcentaje";
             this.porcentaje.Size = new System.Drawing.Size(20, 18);
             this.porcentaje.TabIndex = 9;

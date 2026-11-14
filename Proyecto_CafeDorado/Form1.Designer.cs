@@ -36,7 +36,9 @@
             this.ProviderContra = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.ProviderUsu = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.btnInicio = new Guna.UI2.WinForms.Guna2Button();
+            this.TxtContraseña = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.TxtUsuario = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -46,8 +48,6 @@
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.btnMinimizar = new Guna.UI2.WinForms.Guna2ImageButton();
             this.btnSalir = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.TxtContraseña = new Guna.UI2.WinForms.Guna2TextBox();
-            this.TxtUsuario = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
@@ -60,6 +60,7 @@
             this.guna2BorderlessForm1.AnimationType = Guna.UI2.WinForms.Guna2BorderlessForm.AnimateWindowType.AW_HOR_POSITIVE;
             this.guna2BorderlessForm1.BorderRadius = global::Proyecto_CafeDorado.Properties.Settings.Default.Border;
             this.guna2BorderlessForm1.ContainerControl = this;
+            this.guna2BorderlessForm1.DockForm = false;
             this.guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
             this.guna2BorderlessForm1.ResizeForm = false;
             this.guna2BorderlessForm1.TransparentWhileDrag = true;
@@ -128,6 +129,41 @@
             this.btnInicio.Text = "INICIAR SESION";
             this.btnInicio.Click += new System.EventHandler(this.btnInicio_Click);
             // 
+            // TxtContraseña
+            // 
+            this.TxtContraseña.BackColor = System.Drawing.Color.Transparent;
+            this.TxtContraseña.BorderColor = System.Drawing.Color.Black;
+            this.TxtContraseña.BorderRadius = 15;
+            this.TxtContraseña.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.TxtContraseña.DefaultText = "";
+            this.TxtContraseña.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.TxtContraseña.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.TxtContraseña.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TxtContraseña.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TxtContraseña.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(237)))), ((int)(((byte)(230)))));
+            this.TxtContraseña.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TxtContraseña.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.TxtContraseña.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
+            this.TxtContraseña.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TxtContraseña.IconLeft = global::Proyecto_CafeDorado.Properties.Resources.password_icon;
+            this.TxtContraseña.IconRight = global::Proyecto_CafeDorado.Properties.Resources.eye_icon;
+            this.TxtContraseña.Location = new System.Drawing.Point(27, 201);
+            this.TxtContraseña.Name = "TxtContraseña";
+            this.TxtContraseña.PlaceholderText = "";
+            this.TxtContraseña.SelectedText = "";
+            this.TxtContraseña.ShadowDecoration.BorderRadius = 5;
+            this.TxtContraseña.ShadowDecoration.Depth = 5;
+            this.TxtContraseña.ShadowDecoration.Enabled = true;
+            this.TxtContraseña.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(0, 0, 5, 5);
+            this.TxtContraseña.Size = new System.Drawing.Size(252, 50);
+            this.TxtContraseña.TabIndex = 3;
+            this.TxtContraseña.UseSystemPasswordChar = true;
+            this.TxtContraseña.IconRightClick += new System.EventHandler(this.TxtContraseña_IconRightClick);
+            this.TxtContraseña.TextChanged += new System.EventHandler(this.TxtContraseña_TextChanged);
+            this.TxtContraseña.Click += new System.EventHandler(this.TxtContraseña_Click);
+            this.TxtContraseña.Enter += new System.EventHandler(this.TxtContraseña_Enter);
+            this.TxtContraseña.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtContraseña_KeyPress);
+            // 
             // guna2HtmlLabel4
             // 
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
@@ -138,6 +174,39 @@
             this.guna2HtmlLabel4.Size = new System.Drawing.Size(97, 21);
             this.guna2HtmlLabel4.TabIndex = 2;
             this.guna2HtmlLabel4.Text = "Contraseña";
+            // 
+            // TxtUsuario
+            // 
+            this.TxtUsuario.BackColor = System.Drawing.Color.Transparent;
+            this.TxtUsuario.BorderColor = System.Drawing.Color.Black;
+            this.TxtUsuario.BorderRadius = 15;
+            this.TxtUsuario.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.TxtUsuario.DefaultText = "";
+            this.TxtUsuario.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.TxtUsuario.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.TxtUsuario.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TxtUsuario.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TxtUsuario.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(237)))), ((int)(((byte)(230)))));
+            this.TxtUsuario.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TxtUsuario.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.TxtUsuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
+            this.TxtUsuario.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TxtUsuario.IconLeft = global::Proyecto_CafeDorado.Properties.Resources.male_icon;
+            this.TxtUsuario.Location = new System.Drawing.Point(27, 91);
+            this.TxtUsuario.Name = "TxtUsuario";
+            this.TxtUsuario.PlaceholderText = "";
+            this.TxtUsuario.SelectedText = "";
+            this.TxtUsuario.ShadowDecoration.BorderRadius = 5;
+            this.TxtUsuario.ShadowDecoration.Depth = 5;
+            this.TxtUsuario.ShadowDecoration.Enabled = true;
+            this.TxtUsuario.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(0, 0, 5, 5);
+            this.TxtUsuario.Size = new System.Drawing.Size(252, 50);
+            this.TxtUsuario.TabIndex = 0;
+            this.TxtUsuario.TextChanged += new System.EventHandler(this.TxtUsuario_TextChanged);
+            this.TxtUsuario.Click += new System.EventHandler(this.TxtUsuario_Click);
+            this.TxtUsuario.Enter += new System.EventHandler(this.TxtUsuario_Enter);
+            this.TxtUsuario.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtUsuario_KeyPress);
+            this.TxtUsuario.Leave += new System.EventHandler(this.TxtUsuario_Leave);
             // 
             // guna2HtmlLabel3
             // 
@@ -242,74 +311,6 @@
             this.btnSalir.TabIndex = 2;
             this.btnSalir.UseTransparentBackground = true;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
-            // 
-            // TxtContraseña
-            // 
-            this.TxtContraseña.BackColor = System.Drawing.Color.Transparent;
-            this.TxtContraseña.BorderColor = System.Drawing.Color.Black;
-            this.TxtContraseña.BorderRadius = 15;
-            this.TxtContraseña.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.TxtContraseña.DefaultText = "";
-            this.TxtContraseña.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.TxtContraseña.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.TxtContraseña.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TxtContraseña.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TxtContraseña.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(237)))), ((int)(((byte)(230)))));
-            this.TxtContraseña.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TxtContraseña.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.TxtContraseña.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
-            this.TxtContraseña.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TxtContraseña.IconLeft = global::Proyecto_CafeDorado.Properties.Resources.password_icon;
-            this.TxtContraseña.IconRight = global::Proyecto_CafeDorado.Properties.Resources.eye_icon;
-            this.TxtContraseña.Location = new System.Drawing.Point(27, 201);
-            this.TxtContraseña.Name = "TxtContraseña";
-            this.TxtContraseña.PlaceholderText = "";
-            this.TxtContraseña.SelectedText = "";
-            this.TxtContraseña.ShadowDecoration.BorderRadius = 5;
-            this.TxtContraseña.ShadowDecoration.Depth = 5;
-            this.TxtContraseña.ShadowDecoration.Enabled = true;
-            this.TxtContraseña.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(0, 0, 5, 5);
-            this.TxtContraseña.Size = new System.Drawing.Size(252, 50);
-            this.TxtContraseña.TabIndex = 3;
-            this.TxtContraseña.UseSystemPasswordChar = true;
-            this.TxtContraseña.IconRightClick += new System.EventHandler(this.TxtContraseña_IconRightClick);
-            this.TxtContraseña.TextChanged += new System.EventHandler(this.TxtContraseña_TextChanged);
-            this.TxtContraseña.Click += new System.EventHandler(this.TxtContraseña_Click);
-            this.TxtContraseña.Enter += new System.EventHandler(this.TxtContraseña_Enter);
-            this.TxtContraseña.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtContraseña_KeyPress);
-            // 
-            // TxtUsuario
-            // 
-            this.TxtUsuario.BackColor = System.Drawing.Color.Transparent;
-            this.TxtUsuario.BorderColor = System.Drawing.Color.Black;
-            this.TxtUsuario.BorderRadius = 15;
-            this.TxtUsuario.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.TxtUsuario.DefaultText = "";
-            this.TxtUsuario.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.TxtUsuario.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.TxtUsuario.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TxtUsuario.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TxtUsuario.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(237)))), ((int)(((byte)(230)))));
-            this.TxtUsuario.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TxtUsuario.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.TxtUsuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
-            this.TxtUsuario.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TxtUsuario.IconLeft = global::Proyecto_CafeDorado.Properties.Resources.male_icon;
-            this.TxtUsuario.Location = new System.Drawing.Point(27, 91);
-            this.TxtUsuario.Name = "TxtUsuario";
-            this.TxtUsuario.PlaceholderText = "";
-            this.TxtUsuario.SelectedText = "";
-            this.TxtUsuario.ShadowDecoration.BorderRadius = 5;
-            this.TxtUsuario.ShadowDecoration.Depth = 5;
-            this.TxtUsuario.ShadowDecoration.Enabled = true;
-            this.TxtUsuario.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(0, 0, 5, 5);
-            this.TxtUsuario.Size = new System.Drawing.Size(252, 50);
-            this.TxtUsuario.TabIndex = 0;
-            this.TxtUsuario.TextChanged += new System.EventHandler(this.TxtUsuario_TextChanged);
-            this.TxtUsuario.Click += new System.EventHandler(this.TxtUsuario_Click);
-            this.TxtUsuario.Enter += new System.EventHandler(this.TxtUsuario_Enter);
-            this.TxtUsuario.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtUsuario_KeyPress);
-            this.TxtUsuario.Leave += new System.EventHandler(this.TxtUsuario_Leave);
             // 
             // guna2Panel1
             // 
