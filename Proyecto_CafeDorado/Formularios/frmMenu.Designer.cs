@@ -31,7 +31,10 @@
             this.components = new System.ComponentModel.Container();
             this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.btnMinimizar = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.btnSalir = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.btnAdmin = new Guna.UI2.WinForms.Guna2Button();
             this.btnAcercaDe = new Guna.UI2.WinForms.Guna2Button();
@@ -39,16 +42,13 @@
             this.btnRecep = new Guna.UI2.WinForms.Guna2Button();
             this.btnProductores = new Guna.UI2.WinForms.Guna2Button();
             this.btnUtilidades = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.btnInicio = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.btnMinimizar = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.btnSalir = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.panelPrincipal = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2Panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.guna2Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnInicio)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2BorderlessForm1
@@ -71,6 +71,18 @@
             this.guna2Panel1.Size = new System.Drawing.Size(1150, 35);
             this.guna2Panel1.TabIndex = 0;
             // 
+            // guna2CirclePictureBox1
+            // 
+            this.guna2CirclePictureBox1.Image = global::Proyecto_CafeDorado.Properties.Resources.LOGO_CAFEDORADO_NOTRANSPARENTE;
+            this.guna2CirclePictureBox1.ImageRotate = 0F;
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(12, 9);
+            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
+            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(20, 20);
+            this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2CirclePictureBox1.TabIndex = 7;
+            this.guna2CirclePictureBox1.TabStop = false;
+            // 
             // guna2HtmlLabel1
             // 
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
@@ -81,6 +93,41 @@
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(237, 18);
             this.guna2HtmlLabel1.TabIndex = 6;
             this.guna2HtmlLabel1.Text = "COOP. CAFE DORADO - MENU PRINCIPAL";
+            // 
+            // btnMinimizar
+            // 
+            this.btnMinimizar.BackColor = System.Drawing.Color.White;
+            this.btnMinimizar.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.btnMinimizar.HoverState.Image = global::Proyecto_CafeDorado.Properties.Resources.mathematics_sign_minus_round_icon;
+            this.btnMinimizar.HoverState.ImageSize = new System.Drawing.Size(64, 64);
+            this.btnMinimizar.Image = global::Proyecto_CafeDorado.Properties.Resources.mathematics_sign_minus_round_icon;
+            this.btnMinimizar.ImageOffset = new System.Drawing.Point(0, 0);
+            this.btnMinimizar.ImageRotate = 0F;
+            this.btnMinimizar.ImageSize = new System.Drawing.Size(20, 20);
+            this.btnMinimizar.Location = new System.Drawing.Point(1092, 9);
+            this.btnMinimizar.Name = "btnMinimizar";
+            this.btnMinimizar.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.btnMinimizar.Size = new System.Drawing.Size(20, 20);
+            this.btnMinimizar.TabIndex = 5;
+            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
+            // 
+            // btnSalir
+            // 
+            this.btnSalir.BackColor = System.Drawing.Color.Transparent;
+            this.btnSalir.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.btnSalir.HoverState.Image = global::Proyecto_CafeDorado.Properties.Resources.red_x_icon;
+            this.btnSalir.HoverState.ImageSize = new System.Drawing.Size(64, 64);
+            this.btnSalir.Image = global::Proyecto_CafeDorado.Properties.Resources.red_x_icon;
+            this.btnSalir.ImageOffset = new System.Drawing.Point(0, 0);
+            this.btnSalir.ImageRotate = 0F;
+            this.btnSalir.ImageSize = new System.Drawing.Size(20, 20);
+            this.btnSalir.Location = new System.Drawing.Point(1118, 9);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.btnSalir.Size = new System.Drawing.Size(20, 20);
+            this.btnSalir.TabIndex = 4;
+            this.btnSalir.UseTransparentBackground = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // guna2Panel2
             // 
@@ -243,22 +290,6 @@
             this.btnUtilidades.TabIndex = 1;
             this.btnUtilidades.Text = "Utilidades";
             // 
-            // guna2Panel3
-            // 
-            this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2Panel3.Location = new System.Drawing.Point(0, 125);
-            this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Padding = new System.Windows.Forms.Padding(10);
-            this.guna2Panel3.Size = new System.Drawing.Size(1150, 450);
-            this.guna2Panel3.TabIndex = 2;
-            // 
-            // guna2DragControl1
-            // 
-            this.guna2DragControl1.DockForm = true;
-            this.guna2DragControl1.DockIndicatorTransparencyValue = 0.6D;
-            this.guna2DragControl1.TargetControl = this.guna2Panel1;
-            this.guna2DragControl1.UseTransparentDrag = true;
-            // 
             // btnInicio
             // 
             this.btnInicio.Image = global::Proyecto_CafeDorado.Properties.Resources.LOGO_CAFEDORADO_NOTRANSPARENTE;
@@ -271,52 +302,21 @@
             this.btnInicio.TabIndex = 0;
             this.btnInicio.TabStop = false;
             // 
-            // guna2CirclePictureBox1
+            // panelPrincipal
             // 
-            this.guna2CirclePictureBox1.Image = global::Proyecto_CafeDorado.Properties.Resources.LOGO_CAFEDORADO_NOTRANSPARENTE;
-            this.guna2CirclePictureBox1.ImageRotate = 0F;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(12, 9);
-            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
-            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(20, 20);
-            this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2CirclePictureBox1.TabIndex = 7;
-            this.guna2CirclePictureBox1.TabStop = false;
+            this.panelPrincipal.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelPrincipal.Location = new System.Drawing.Point(0, 125);
+            this.panelPrincipal.Name = "panelPrincipal";
+            this.panelPrincipal.Padding = new System.Windows.Forms.Padding(10);
+            this.panelPrincipal.Size = new System.Drawing.Size(1150, 450);
+            this.panelPrincipal.TabIndex = 2;
             // 
-            // btnMinimizar
+            // guna2DragControl1
             // 
-            this.btnMinimizar.BackColor = System.Drawing.Color.White;
-            this.btnMinimizar.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.btnMinimizar.HoverState.Image = global::Proyecto_CafeDorado.Properties.Resources.mathematics_sign_minus_round_icon;
-            this.btnMinimizar.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.btnMinimizar.Image = global::Proyecto_CafeDorado.Properties.Resources.mathematics_sign_minus_round_icon;
-            this.btnMinimizar.ImageOffset = new System.Drawing.Point(0, 0);
-            this.btnMinimizar.ImageRotate = 0F;
-            this.btnMinimizar.ImageSize = new System.Drawing.Size(20, 20);
-            this.btnMinimizar.Location = new System.Drawing.Point(1092, 9);
-            this.btnMinimizar.Name = "btnMinimizar";
-            this.btnMinimizar.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.btnMinimizar.Size = new System.Drawing.Size(20, 20);
-            this.btnMinimizar.TabIndex = 5;
-            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
-            // 
-            // btnSalir
-            // 
-            this.btnSalir.BackColor = System.Drawing.Color.Transparent;
-            this.btnSalir.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.btnSalir.HoverState.Image = global::Proyecto_CafeDorado.Properties.Resources.red_x_icon;
-            this.btnSalir.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.btnSalir.Image = global::Proyecto_CafeDorado.Properties.Resources.red_x_icon;
-            this.btnSalir.ImageOffset = new System.Drawing.Point(0, 0);
-            this.btnSalir.ImageRotate = 0F;
-            this.btnSalir.ImageSize = new System.Drawing.Size(20, 20);
-            this.btnSalir.Location = new System.Drawing.Point(1118, 9);
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.btnSalir.Size = new System.Drawing.Size(20, 20);
-            this.btnSalir.TabIndex = 4;
-            this.btnSalir.UseTransparentBackground = true;
-            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            this.guna2DragControl1.DockForm = true;
+            this.guna2DragControl1.DockIndicatorTransparencyValue = 0.6D;
+            this.guna2DragControl1.TargetControl = this.guna2Panel1;
+            this.guna2DragControl1.UseTransparentDrag = true;
             // 
             // frmMenu
             // 
@@ -324,18 +324,19 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(243)))), ((int)(((byte)(238)))));
             this.ClientSize = new System.Drawing.Size(1150, 575);
-            this.Controls.Add(this.guna2Panel3);
+            this.Controls.Add(this.panelPrincipal);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "frmMenu";
+            this.Load += new System.EventHandler(this.frmMenu_Load);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             this.guna2Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btnInicio)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -345,7 +346,7 @@
         private Guna.UI2.WinForms.Guna2BorderlessForm guna2BorderlessForm1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
+        private Guna.UI2.WinForms.Guna2Panel panelPrincipal;
         private Guna.UI2.WinForms.Guna2CirclePictureBox btnInicio;
         private Guna.UI2.WinForms.Guna2ImageButton btnMinimizar;
         private Guna.UI2.WinForms.Guna2ImageButton btnSalir;
