@@ -117,4 +117,21 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="guna2HtmlLabel5.Text" xml:space="preserve">
+    <value>• Gestión de Productores: Registro, actualización y control del padrón de socios cafetaleros.
+
+
+• Recepción y Calidades: Ingreso detallado de lotes de café, clasificando de forma precisa el tipo de grano y su calidad.
+
+
+• Control de Pagos: Administración segura de liquidaciones y seguimiento del estado de cuenta de cada productor.
+
+
+• Herramientas Operativas: Conversión rápida de medidas (Quintales a Kilogramos) y monitoreo de estadísticas en tiempo real.
+
+</value>
+  </data>
+  <data name="guna2HtmlLabel3.Text" xml:space="preserve">
+    <value>Este programa es una herramienta de gestión diseñada exclusivamente para el personal de la cooperativa Café Dorado. Su función principal es centralizar la información operativa, facilitando el control de los productores asociados, el registro de pagos, y brindando utilidades de conversión y métricas en tiempo real para agilizar la atención y toma de decisiones.</value>
+  </data>
 </root>
