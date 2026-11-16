@@ -15,6 +15,7 @@ namespace Proyecto_CafeDorado.Formularios
         public frmInicio()
         {
             InitializeComponent();
+            guna2VScrollBar4.BindingContainer = guna2Panel1;
         }
     }
 }
