@@ -146,4 +146,10 @@
   <data name="guna2HtmlLabel3.Text" xml:space="preserve">
     <value>&lt;Div style='text-align: justify;'&gt;Este programa es una herramienta de gestión diseñada exclusivamente para el personal de la cooperativa Café Dorado. Su función principal es centralizar la información operativa, facilitando el control de los productores asociados, el registro de pagos, y brindando utilidades de conversión y métricas en tiempo real para agilizar la atención y toma de decisiones.&lt;/Div&gt;</value>
   </data>
+  <metadata name="guna2Elipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="guna2Elipse2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>140, 17</value>
+  </metadata>
 </root>
