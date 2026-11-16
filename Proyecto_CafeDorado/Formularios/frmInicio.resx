@@ -135,20 +135,15 @@
     <value>&lt;Div style='text-align: justify;'&gt;La Cooperativa "Café Dorado" es una organización conformada por más de 100 pequeños y medianos productores de café de altura. Nos dedicamos al acopio, evaluación de calidad y comercialización de café en grano. Nacimos con el propósito de unificar los esfuerzos de nuestras comunidades cafetaleras, garantizando que el trabajo duro del campo sea respaldado por una gestión administrativa impecable, pesajes exactos y total transparencia en cada temporada de cosecha&lt;/Div&gt;</value>
   </data>
   <data name="guna2HtmlLabel5.Text" xml:space="preserve">
-    <value>• Gestión de Productores: Registro, actualización y control del padrón de socios cafetaleros.
-
-
-• Recepción y Calidades: Ingreso detallado de lotes de café, clasificando de forma precisa el tipo de grano y su calidad.
-
-
-• Control de Pagos: Administración segura de liquidaciones y seguimiento del estado de cuenta de cada productor.
-
-
-• Herramientas Operativas: Conversión rápida de medidas (Quintales a Kilogramos) y monitoreo de estadísticas en tiempo real.
-
+    <value>&lt;div style="text-align: justify;"&gt;
+  &amp;bull; Gestión de Productores: Registro, actualización y control del padrón de socios cafetaleros.&lt;br&gt;&lt;br&gt;
+  &amp;bull; Recepción y Calidades: Ingreso detallado de lotes de café, clasificando de forma precisa el tipo de grano y su calidad.&lt;br&gt;&lt;br&gt;
+  &amp;bull; Control de Pagos: Administración segura de liquidaciones y seguimiento del estado de cuenta de cada productor.&lt;br&gt;&lt;br&gt;
+  &amp;bull; Herramientas Operativas: Conversión rápida de medidas (Quintales a Kilogramos) y monitoreo de estadísticas en tiempo real.
+&lt;/div&gt;
 </value>
   </data>
   <data name="guna2HtmlLabel3.Text" xml:space="preserve">
-    <value>Este programa es una herramienta de gestión diseñada exclusivamente para el personal de la cooperativa Café Dorado. Su función principal es centralizar la información operativa, facilitando el control de los productores asociados, el registro de pagos, y brindando utilidades de conversión y métricas en tiempo real para agilizar la atención y toma de decisiones.</value>
+    <value>&lt;Div style='text-align: justify;'&gt;Este programa es una herramienta de gestión diseñada exclusivamente para el personal de la cooperativa Café Dorado. Su función principal es centralizar la información operativa, facilitando el control de los productores asociados, el registro de pagos, y brindando utilidades de conversión y métricas en tiempo real para agilizar la atención y toma de decisiones.&lt;/Div&gt;</value>
   </data>
 </root>

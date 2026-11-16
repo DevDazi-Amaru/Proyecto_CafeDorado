@@ -79,9 +79,9 @@
             this.guna2Panel2.Controls.Add(this.guna2HtmlLabel3);
             this.guna2Panel2.Controls.Add(this.guna2HtmlLabel2);
             this.guna2Panel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(237)))), ((int)(((byte)(230)))));
-            this.guna2Panel2.Location = new System.Drawing.Point(10, 70);
+            this.guna2Panel2.Location = new System.Drawing.Point(12, 908);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(535, 236);
+            this.guna2Panel2.Size = new System.Drawing.Size(535, 405);
             this.guna2Panel2.TabIndex = 3;
             // 
             // guna2HtmlLabel5
@@ -90,9 +90,9 @@
             this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(52)))), ((int)(((byte)(46)))));
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(35, 152);
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(35, 195);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(450, 62);
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(450, 184);
             this.guna2HtmlLabel5.TabIndex = 3;
             this.guna2HtmlLabel5.Text = resources.GetString("guna2HtmlLabel5.Text");
             // 
@@ -101,7 +101,7 @@
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel4.Font = new System.Drawing.Font("Century Gothic", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(25, 117);
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(25, 160);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
             this.guna2HtmlLabel4.Size = new System.Drawing.Size(293, 25);
             this.guna2HtmlLabel4.TabIndex = 2;
@@ -115,7 +115,7 @@
             this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(52)))), ((int)(((byte)(46)))));
             this.guna2HtmlLabel3.Location = new System.Drawing.Point(35, 45);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(450, 62);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(450, 100);
             this.guna2HtmlLabel3.TabIndex = 1;
             this.guna2HtmlLabel3.Text = resources.GetString("guna2HtmlLabel3.Text");
             // 
@@ -166,7 +166,7 @@
             this.guna2Panel3.Controls.Add(this.guna2HtmlLabel6);
             this.guna2Panel3.Controls.Add(this.guna2HtmlLabel9);
             this.guna2Panel3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(237)))), ((int)(((byte)(230)))));
-            this.guna2Panel3.Location = new System.Drawing.Point(10, 316);
+            this.guna2Panel3.Location = new System.Drawing.Point(10, 70);
             this.guna2Panel3.Name = "guna2Panel3";
             this.guna2Panel3.Size = new System.Drawing.Size(535, 828);
             this.guna2Panel3.TabIndex = 4;
