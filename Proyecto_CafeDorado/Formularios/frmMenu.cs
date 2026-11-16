@@ -42,6 +42,8 @@ namespace Proyecto_CafeDorado.Formularios
             {
                 btnAdmin.Visible = false;
             }
+
+            AbrirFormularioEnPanel(new frmInicio());
         }
         
         private void AbrirFormularioEnPanel(Form formHijo)
