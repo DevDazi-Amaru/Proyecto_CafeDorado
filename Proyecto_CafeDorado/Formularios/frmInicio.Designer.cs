@@ -144,11 +144,11 @@
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Century Gothic", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(405, 12);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(409, 12);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(300, 38);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(292, 38);
             this.guna2HtmlLabel1.TabIndex = 0;
-            this.guna2HtmlLabel1.Text = "BIENVENIDIO - INICIO ";
+            this.guna2HtmlLabel1.Text = "BIENVENIDO - INICIO ";
             // 
             // guna2Panel3
             // 
