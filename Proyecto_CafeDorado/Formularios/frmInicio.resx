@@ -117,6 +117,23 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="guna2HtmlLabel14.Text" xml:space="preserve">
+    <value>&lt;div style="text-align: justify;"&gt;
+  &amp;bull; Transparencia Absoluta: Cuentas claras, historiales precisos y cero errores en los pagos.&lt;br&gt;&lt;br&gt;
+  &amp;bull; Equidad: Trato justo y estandarizado para todos los socios, sin importar el tamaño de su finca.&lt;br&gt;&lt;br&gt;
+  &amp;bull; Calidad: Búsqueda constante de la excelencia desde la recepción hasta la liquidación del grano.&lt;br&gt;&lt;br&gt;
+  &amp;bull; Innovación: Evolución continua de nuestras herramientas para dejar atrás los procesos obsoletos y optimizar nuestro tiempo.
+&lt;/div&gt;</value>
+  </data>
+  <data name="guna2HtmlLabel12.Text" xml:space="preserve">
+    <value>&lt;Div style='text-align: justify;'&gt;Ser la cooperativa cafetalera más confiable y sólida de la región, reconocida por la calidad inigualable de nuestro café y por ser pioneros en la modernización de nuestros procesos internos, asegurando un comercio justo y el bienestar a largo plazo de todos nuestros afiliados.&lt;/Div&gt;</value>
+  </data>
+  <data name="guna2HtmlLabel10.Text" xml:space="preserve">
+    <value>&lt;Div style='text-align: justify;'&gt;Gestionar y comercializar la producción cafetalera de nuestros socios con la máxima transparencia, exactitud y eficiencia técnica. Nos comprometemos a garantizar pagos justos basados estrictamente en el rendimiento y calidad del grano, protegiendo el esfuerzo del productor y fomentando el desarrollo económico de sus familias&lt;/Div&gt;</value>
+  </data>
+  <data name="guna2HtmlLabel6.Text" xml:space="preserve">
+    <value>&lt;Div style='text-align: justify;'&gt;La Cooperativa "Café Dorado" es una organización conformada por más de 100 pequeños y medianos productores de café de altura. Nos dedicamos al acopio, evaluación de calidad y comercialización de café en grano. Nacimos con el propósito de unificar los esfuerzos de nuestras comunidades cafetaleras, garantizando que el trabajo duro del campo sea respaldado por una gestión administrativa impecable, pesajes exactos y total transparencia en cada temporada de cosecha&lt;/Div&gt;</value>
+  </data>
   <data name="guna2HtmlLabel5.Text" xml:space="preserve">
     <value>&lt;div style="text-align: justify;"&gt;
   &amp;bull; Gestión de Productores: Registro, actualización y control del padrón de socios cafetaleros.&lt;br&gt;&lt;br&gt;
@@ -128,22 +145,5 @@
   </data>
   <data name="guna2HtmlLabel3.Text" xml:space="preserve">
     <value>&lt;Div style='text-align: justify;'&gt;Este programa es una herramienta de gestión diseñada exclusivamente para el personal de la cooperativa Café Dorado. Su función principal es centralizar la información operativa, facilitando el control de los productores asociados, el registro de pagos, y brindando utilidades de conversión y métricas en tiempo real para agilizar la atención y toma de decisiones.&lt;/Div&gt;</value>
-  </data>
-  <data name="guna2HtmlLabel6.Text" xml:space="preserve">
-    <value>&lt;Div style='text-align: justify;'&gt;La Cooperativa "Café Dorado" es una organización conformada por más de 100 pequeños y medianos productores de café de altura. Nos dedicamos al acopio, evaluación de calidad y comercialización de café en grano. Nacimos con el propósito de unificar los esfuerzos de nuestras comunidades cafetaleras, garantizando que el trabajo duro del campo sea respaldado por una gestión administrativa impecable, pesajes exactos y total transparencia en cada temporada de cosecha&lt;/Div&gt;</value>
-  </data>
-  <data name="guna2HtmlLabel10.Text" xml:space="preserve">
-    <value>&lt;Div style='text-align: justify;'&gt;Gestionar y comercializar la producción cafetalera de nuestros socios con la máxima transparencia, exactitud y eficiencia técnica. Nos comprometemos a garantizar pagos justos basados estrictamente en el rendimiento y calidad del grano, protegiendo el esfuerzo del productor y fomentando el desarrollo económico de sus familias&lt;/Div&gt;</value>
-  </data>
-  <data name="guna2HtmlLabel12.Text" xml:space="preserve">
-    <value>&lt;Div style='text-align: justify;'&gt;Ser la cooperativa cafetalera más confiable y sólida de la región, reconocida por la calidad inigualable de nuestro café y por ser pioneros en la modernización de nuestros procesos internos, asegurando un comercio justo y el bienestar a largo plazo de todos nuestros afiliados.&lt;/Div&gt;</value>
-  </data>
-  <data name="guna2HtmlLabel14.Text" xml:space="preserve">
-    <value>&lt;div style="text-align: justify;"&gt;
-  &amp;bull; Transparencia Absoluta: Cuentas claras, historiales precisos y cero errores en los pagos.&lt;br&gt;&lt;br&gt;
-  &amp;bull; Equidad: Trato justo y estandarizado para todos los socios, sin importar el tamaño de su finca.&lt;br&gt;&lt;br&gt;
-  &amp;bull; Calidad: Búsqueda constante de la excelencia desde la recepción hasta la liquidación del grano.&lt;br&gt;&lt;br&gt;
-  &amp;bull; Innovación: Evolución continua de nuestras herramientas para dejar atrás los procesos obsoletos y optimizar nuestro tiempo.
-&lt;/div&gt;</value>
   </data>
 </root>
