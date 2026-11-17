@@ -37,10 +37,50 @@ namespace Proyecto_CafeDorado.Formularios
             {
                 btnAgregar.Visible = true;
             }
+            txtAltitud.Items.Insert(0, "Todas las altitudes");
+            txtCategoria.Items.Insert(0, "Todas las categorías");
+            txtEstado.Items.Insert(0, "Activo/Inactivo");
         }
 
         private void btnFiltrar_Click(object sender, EventArgs e)
         {
+            string filtroquery = "SELECT * FROM PRODUCTORES WHERE 1=1";
+
+
+            if (!string.IsNullOrEmpty(txtFiltroTexto.Text))
+            {
+                filtroquery += " AND (Nombre_completo LIKE '%' + @filtrotexto + '%' OR Cedula LIKE '%' + @filtrotexto + '%' OR Nombre_Finca LIKE '%' + @filtrotexto + '%' OR Correo LIKE '%' + @filtrotexto + '%' OR Ubicacion LIKE '%' + @filtrotexto + '%')";
+            }
+            if (!string.IsNullOrEmpty(txtFiltroNumero.Text))
+            {
+                filtroquery += " AND Cedula LIKE '%' + @filtronumero + '%'";
+            }
+            if (txtAltitud.SelectedIndex > 0)
+            {
+                switch (txtAltitud.SelectedIndex)
+                {
+                    case 1:
+                        filtroquery += " AND Altitud < 800";
+                        break;
+                    case 2:
+                        filtroquery += " AND Altitud BETWEEN 800 AND 1200";
+                        break;
+                    case 3:
+                        filtroquery += " AND Altitud BETWEEN 1201 AND 1500";
+                        break;
+                    case 4:
+                        filtroquery += " AND Altitud > 1500";
+                        break;
+                }
+            }
+            if (txtCategoria.SelectedIndex > 0)
+            {
+                filtroquery += " AND Categoria = @filtrocategoria";
+            }
+            if (txtEstado.SelectedIndex > 0)
+            {
+                filtroquery += " AND Estado = @filtroestado";
+            }
 
         }
     }
