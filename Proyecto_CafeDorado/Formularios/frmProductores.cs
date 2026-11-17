@@ -15,6 +15,12 @@ namespace Proyecto_CafeDorado.Formularios
         public frmProductores()
         {
             InitializeComponent();
+            guna2VScrollBar1.BindingContainer = guna2Panel1;
+        }
+
+        private void guna2HtmlLabel4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
