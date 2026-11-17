@@ -57,5 +57,10 @@ namespace Proyecto_CafeDorado.Formularios
             this.panelPrincipal.Tag = fh;
             fh.Show();
         }
+
+        private void btnProductores_Click(object sender, EventArgs e)
+        {
+            AbrirFormularioEnPanel(new frmProductores());
+        }
     }
 }

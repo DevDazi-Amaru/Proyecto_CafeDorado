@@ -35,7 +35,7 @@ namespace Proyecto_CafeDorado.Formularios
             Actualizartabla();
             if (SesionActiva.Rol == "Administrador")
             {
-                btnAgregar.Visible = true;
+                btnAñadir.Visible = true;
             }
             txtAltitud.Items.Insert(0, "Todas las altitudes");
             txtCategoria.Items.Insert(0, "Todas las categorías");

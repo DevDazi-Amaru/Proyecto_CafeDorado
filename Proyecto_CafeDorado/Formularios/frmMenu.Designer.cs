@@ -266,6 +266,7 @@
             this.btnProductores.Size = new System.Drawing.Size(150, 45);
             this.btnProductores.TabIndex = 2;
             this.btnProductores.Text = "Productores";
+            this.btnProductores.Click += new System.EventHandler(this.btnProductores_Click);
             // 
             // btnUtilidades
             // 
