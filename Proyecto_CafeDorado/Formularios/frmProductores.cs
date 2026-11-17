@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlTypes;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -46,42 +47,46 @@ namespace Proyecto_CafeDorado.Formularios
         {
             string filtroquery = "SELECT * FROM PRODUCTORES WHERE 1=1";
 
-
             if (!string.IsNullOrEmpty(txtFiltroTexto.Text))
             {
-                filtroquery += " AND (Nombre_completo LIKE '%' + @filtrotexto + '%' OR Cedula LIKE '%' + @filtrotexto + '%' OR Nombre_Finca LIKE '%' + @filtrotexto + '%' OR Correo LIKE '%' + @filtrotexto + '%' OR Ubicacion LIKE '%' + @filtrotexto + '%')";
+                filtroquery += " AND (Nombre_completo LIKE '%' + @filtrotexto + '%' OR Cedula LIKE '%' + @filtrotexto + '%')";
+                comando.Parameters.AddWithValue("@filtrotexto", txtFiltroTexto.Text);
             }
+
             if (!string.IsNullOrEmpty(txtFiltroNumero.Text))
             {
                 filtroquery += " AND Cedula LIKE '%' + @filtronumero + '%'";
+                comando.Parameters.AddWithValue("@filtronumero", txtFiltroNumero.Text);
             }
+
             if (txtAltitud.SelectedIndex > 0)
             {
                 switch (txtAltitud.SelectedIndex)
                 {
-                    case 1:
-                        filtroquery += " AND Altitud < 800";
-                        break;
-                    case 2:
-                        filtroquery += " AND Altitud BETWEEN 800 AND 1200";
-                        break;
-                    case 3:
-                        filtroquery += " AND Altitud BETWEEN 1201 AND 1500";
-                        break;
-                    case 4:
-                        filtroquery += " AND Altitud > 1500";
-                        break;
+                    case 1: filtroquery += " AND Altitud < 800"; break;
+                    case 2: filtroquery += " AND Altitud BETWEEN 800 AND 1200"; break;
+                    case 3: filtroquery += " AND Altitud BETWEEN 1201 AND 1500"; break;
+                    case 4: filtroquery += " AND Altitud > 1500"; break;
                 }
             }
+
             if (txtCategoria.SelectedIndex > 0)
             {
                 filtroquery += " AND Categoria = @filtrocategoria";
+                comando.Parameters.AddWithValue("@filtrocategoria", txtCategoria.SelectedItem.ToString());
             }
+
             if (txtEstado.SelectedIndex > 0)
             {
                 filtroquery += " AND Estado = @filtroestado";
+                comando.Parameters.AddWithValue("@filtroestado", txtEstado.SelectedItem.ToString());
             }
 
+            comando.CommandText = filtroquery;
+
+            DBHelper dBHelper = new DBHelper();
+            dgvProductores.DataSource = dBHelper.MostrarDatosComando(comando);
+            
         }
     }
 }

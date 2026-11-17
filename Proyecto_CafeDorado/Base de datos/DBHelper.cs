@@ -77,5 +77,19 @@ namespace Proyecto_CafeDorado
                 }
             }
         }
+        public DataTable MostrarDatosComando(SqlCommand comandoVieneDeAfuera)
+        {
+            DataTable tablaVirtual = new DataTable();
+            using (SqlConnection conexion = new SqlConnection(cadenaConexion))
+            {
+                comandoVieneDeAfuera.Connection = conexion;
+
+                using (SqlDataAdapter adaptador = new SqlDataAdapter(comandoVieneDeAfuera))
+                {
+                    adaptador.Fill(tablaVirtual);
+                }
+            }
+            return tablaVirtual;
+        }
     }
 }
