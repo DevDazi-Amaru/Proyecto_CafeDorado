@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Data.SqlTypes;
 using System.Drawing;
 using System.Linq;
@@ -29,6 +30,16 @@ namespace Proyecto_CafeDorado.Formularios
         {
             DBHelper dBHelper = new DBHelper();
             dgvProductores.DataSource = dBHelper.MostrarDatos("SELECT * FROM PRODUCTORES");
+            if (dgvProductores.Columns.Contains("ProductorID"))
+                dgvProductores.Columns["ProductorID"].Visible = false;
+        }
+        
+        private void filtrartabla(string filtrocomando)
+        {
+            DBHelper dBHelper = new DBHelper();
+            dgvProductores.DataSource = dBHelper.MostrarDatosComando(new SqlCommand(filtrocomando));
+            if (dgvProductores.Columns.Contains("ProductorID"))
+                dgvProductores.Columns["ProductorID"].Visible = false;
         }
 
         private void frmProductores_Load(object sender, EventArgs e)
@@ -46,6 +57,8 @@ namespace Proyecto_CafeDorado.Formularios
         private void btnFiltrar_Click(object sender, EventArgs e)
         {
             string filtroquery = "SELECT * FROM PRODUCTORES WHERE 1=1";
+
+            SqlCommand comando = new SqlCommand(filtroquery);
 
             if (!string.IsNullOrEmpty(txtFiltroTexto.Text))
             {
@@ -84,9 +97,8 @@ namespace Proyecto_CafeDorado.Formularios
 
             comando.CommandText = filtroquery;
 
-            DBHelper dBHelper = new DBHelper();
-            dgvProductores.DataSource = dBHelper.MostrarDatosComando(comando);
-            
+            filtrartabla(filtroquery);
+
         }
     }
 }

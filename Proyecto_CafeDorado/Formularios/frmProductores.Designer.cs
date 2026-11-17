@@ -109,7 +109,6 @@
             this.dgvProductores.AllowUserToResizeRows = false;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
             this.dgvProductores.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.dgvProductores.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
             this.dgvProductores.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(237)))), ((int)(((byte)(230)))));
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
@@ -156,7 +155,6 @@
             // btnAñadir
             // 
             this.btnAñadir.BorderRadius = 15;
-            this.btnAñadir.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
             this.btnAñadir.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
             this.btnAñadir.CheckedState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
             this.btnAñadir.CustomBorderThickness = new System.Windows.Forms.Padding(0, 0, 0, 5);
@@ -213,7 +211,6 @@
             // btnFiltrar
             // 
             this.btnFiltrar.BorderRadius = 15;
-            this.btnFiltrar.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
             this.btnFiltrar.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
             this.btnFiltrar.CheckedState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
             this.btnFiltrar.CustomBorderThickness = new System.Windows.Forms.Padding(0, 0, 0, 5);
