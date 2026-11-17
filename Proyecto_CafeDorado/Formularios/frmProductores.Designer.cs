@@ -29,32 +29,32 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
             this.guna2VScrollBar1 = new Guna.UI2.WinForms.Guna2VScrollBar();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.dgvProductores = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.btnAñadir = new Guna.UI2.WinForms.Guna2Button();
             this.lblTodosLosProductores = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.txtFiltroTexto = new Guna.UI2.WinForms.Guna2TextBox();
-            this.txtAltitud = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.guna2HtmlLabel20 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.txtFiltroNumero = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.txtCategoria = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.btnFiltrar = new Guna.UI2.WinForms.Guna2Button();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.txtEstado = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.btnAñadir = new Guna.UI2.WinForms.Guna2Button();
-            this.btnFiltrar = new Guna.UI2.WinForms.Guna2Button();
-            this.dgvProductores = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.txtCategoria = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.txtFiltroNumero = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel20 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.txtAltitud = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.txtFiltroTexto = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
+            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel1.SuspendLayout();
-            this.guna2Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProductores)).BeginInit();
+            this.guna2Panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2VScrollBar1
@@ -89,25 +89,105 @@
             this.guna2Panel1.Size = new System.Drawing.Size(1112, 850);
             this.guna2Panel1.TabIndex = 1;
             // 
-            // guna2Separator1
+            // guna2HtmlLabel5
             // 
-            this.guna2Separator1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
-            this.guna2Separator1.FillThickness = 5;
-            this.guna2Separator1.Location = new System.Drawing.Point(10, 50);
-            this.guna2Separator1.Name = "guna2Separator1";
-            this.guna2Separator1.Size = new System.Drawing.Size(1090, 12);
-            this.guna2Separator1.TabIndex = 3;
+            this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel5.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Italic);
+            this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(720, 830);
+            this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(382, 17);
+            this.guna2HtmlLabel5.TabIndex = 29;
+            this.guna2HtmlLabel5.Text = "Café Dorado OS - Versión 1.0.0 | Desarrollado por Amaru Hernández";
             // 
-            // guna2HtmlLabel1
+            // dgvProductores
             // 
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Century Gothic", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(393, 5);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(325, 38);
-            this.guna2HtmlLabel1.TabIndex = 2;
-            this.guna2HtmlLabel1.Text = "LISTA DE PRODUCTORES\r\n";
+            this.dgvProductores.AllowUserToAddRows = false;
+            this.dgvProductores.AllowUserToDeleteRows = false;
+            this.dgvProductores.AllowUserToOrderColumns = true;
+            this.dgvProductores.AllowUserToResizeColumns = false;
+            this.dgvProductores.AllowUserToResizeRows = false;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
+            this.dgvProductores.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
+            this.dgvProductores.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
+            this.dgvProductores.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(237)))), ((int)(((byte)(230)))));
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(78)))), ((int)(((byte)(69)))));
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvProductores.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            this.dgvProductores.ColumnHeadersHeight = 40;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(243)))), ((int)(((byte)(238)))));
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvProductores.DefaultCellStyle = dataGridViewCellStyle9;
+            this.dgvProductores.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.dgvProductores.Location = new System.Drawing.Point(10, 330);
+            this.dgvProductores.MultiSelect = false;
+            this.dgvProductores.Name = "dgvProductores";
+            this.dgvProductores.ReadOnly = true;
+            this.dgvProductores.RowHeadersVisible = false;
+            this.dgvProductores.RowHeadersWidth = 40;
+            this.dgvProductores.RowTemplate.Height = 34;
+            this.dgvProductores.Size = new System.Drawing.Size(1090, 470);
+            this.dgvProductores.TabIndex = 28;
+            this.dgvProductores.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.dgvProductores.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(237)))), ((int)(((byte)(230)))));
+            this.dgvProductores.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
+            this.dgvProductores.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvProductores.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
+            this.dgvProductores.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            this.dgvProductores.ThemeStyle.HeaderStyle.Height = 40;
+            this.dgvProductores.ThemeStyle.ReadOnly = true;
+            this.dgvProductores.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(243)))), ((int)(((byte)(238)))));
+            this.dgvProductores.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvProductores.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
+            this.dgvProductores.ThemeStyle.RowsStyle.Height = 34;
+            this.dgvProductores.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
+            this.dgvProductores.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
+            // 
+            // btnAñadir
+            // 
+            this.btnAñadir.BorderRadius = 15;
+            this.btnAñadir.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.btnAñadir.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
+            this.btnAñadir.CheckedState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
+            this.btnAñadir.CustomBorderThickness = new System.Windows.Forms.Padding(0, 0, 0, 5);
+            this.btnAñadir.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnAñadir.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnAñadir.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnAñadir.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnAñadir.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
+            this.btnAñadir.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAñadir.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(243)))), ((int)(((byte)(238)))));
+            this.btnAñadir.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
+            this.btnAñadir.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
+            this.btnAñadir.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(243)))), ((int)(((byte)(238)))));
+            this.btnAñadir.Location = new System.Drawing.Point(895, 87);
+            this.btnAñadir.Name = "btnAñadir";
+            this.btnAñadir.PressedColor = System.Drawing.Color.Empty;
+            this.btnAñadir.Size = new System.Drawing.Size(180, 45);
+            this.btnAñadir.TabIndex = 7;
+            this.btnAñadir.Text = "Añadir productor";
+            this.btnAñadir.Visible = false;
+            // 
+            // lblTodosLosProductores
+            // 
+            this.lblTodosLosProductores.BackColor = System.Drawing.Color.Transparent;
+            this.lblTodosLosProductores.Font = new System.Drawing.Font("Century Gothic", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTodosLosProductores.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
+            this.lblTodosLosProductores.Location = new System.Drawing.Point(12, 94);
+            this.lblTodosLosProductores.Name = "lblTodosLosProductores";
+            this.lblTodosLosProductores.Size = new System.Drawing.Size(308, 38);
+            this.lblTodosLosProductores.TabIndex = 6;
+            this.lblTodosLosProductores.Text = "Todos los Productores";
             // 
             // guna2Panel2
             // 
@@ -130,140 +210,30 @@
             this.guna2Panel2.Size = new System.Drawing.Size(1090, 150);
             this.guna2Panel2.TabIndex = 5;
             // 
-            // lblTodosLosProductores
+            // btnFiltrar
             // 
-            this.lblTodosLosProductores.BackColor = System.Drawing.Color.Transparent;
-            this.lblTodosLosProductores.Font = new System.Drawing.Font("Century Gothic", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTodosLosProductores.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
-            this.lblTodosLosProductores.Location = new System.Drawing.Point(12, 94);
-            this.lblTodosLosProductores.Name = "lblTodosLosProductores";
-            this.lblTodosLosProductores.Size = new System.Drawing.Size(308, 38);
-            this.lblTodosLosProductores.TabIndex = 6;
-            this.lblTodosLosProductores.Text = "Todos los Productores";
-            // 
-            // txtFiltroTexto
-            // 
-            this.txtFiltroTexto.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
-            this.txtFiltroTexto.BorderRadius = 10;
-            this.txtFiltroTexto.BorderThickness = 2;
-            this.txtFiltroTexto.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtFiltroTexto.DefaultText = "";
-            this.txtFiltroTexto.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtFiltroTexto.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtFiltroTexto.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtFiltroTexto.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtFiltroTexto.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(237)))), ((int)(((byte)(230)))));
-            this.txtFiltroTexto.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtFiltroTexto.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.txtFiltroTexto.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtFiltroTexto.Location = new System.Drawing.Point(15, 17);
-            this.txtFiltroTexto.Name = "txtFiltroTexto";
-            this.txtFiltroTexto.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
-            this.txtFiltroTexto.PlaceholderText = "Buscar por nombre de productor, cedula, correo, nombre de finca o ubicacion  ";
-            this.txtFiltroTexto.SelectedText = "";
-            this.txtFiltroTexto.Size = new System.Drawing.Size(1060, 45);
-            this.txtFiltroTexto.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
-            this.txtFiltroTexto.TabIndex = 0;
-            // 
-            // txtAltitud
-            // 
-            this.txtAltitud.BackColor = System.Drawing.Color.Transparent;
-            this.txtAltitud.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
-            this.txtAltitud.BorderThickness = 2;
-            this.txtAltitud.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.txtAltitud.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.txtAltitud.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(237)))), ((int)(((byte)(230)))));
-            this.txtAltitud.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtAltitud.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtAltitud.Font = new System.Drawing.Font("Century Gothic", 10F);
-            this.txtAltitud.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.txtAltitud.IntegralHeight = false;
-            this.txtAltitud.ItemHeight = 34;
-            this.txtAltitud.Location = new System.Drawing.Point(256, 95);
-            this.txtAltitud.Name = "txtAltitud";
-            this.txtAltitud.Size = new System.Drawing.Size(150, 40);
-            this.txtAltitud.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
-            this.txtAltitud.TabIndex = 1;
-            // 
-            // guna2HtmlLabel20
-            // 
-            this.guna2HtmlLabel20.AutoSize = false;
-            this.guna2HtmlLabel20.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel20.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
-            this.guna2HtmlLabel20.Location = new System.Drawing.Point(256, 65);
-            this.guna2HtmlLabel20.Name = "guna2HtmlLabel20";
-            this.guna2HtmlLabel20.Size = new System.Drawing.Size(130, 20);
-            this.guna2HtmlLabel20.TabIndex = 19;
-            this.guna2HtmlLabel20.Text = "Altitud";
-            // 
-            // guna2HtmlLabel2
-            // 
-            this.guna2HtmlLabel2.AutoSize = false;
-            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(15, 65);
-            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(130, 20);
-            this.guna2HtmlLabel2.TabIndex = 20;
-            this.guna2HtmlLabel2.Text = "Numero";
-            // 
-            // txtFiltroNumero
-            // 
-            this.txtFiltroNumero.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
-            this.txtFiltroNumero.BorderRadius = 10;
-            this.txtFiltroNumero.BorderThickness = 2;
-            this.txtFiltroNumero.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtFiltroNumero.DefaultText = "";
-            this.txtFiltroNumero.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtFiltroNumero.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtFiltroNumero.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtFiltroNumero.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtFiltroNumero.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(237)))), ((int)(((byte)(230)))));
-            this.txtFiltroNumero.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtFiltroNumero.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.txtFiltroNumero.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtFiltroNumero.Location = new System.Drawing.Point(15, 90);
-            this.txtFiltroNumero.Name = "txtFiltroNumero";
-            this.txtFiltroNumero.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
-            this.txtFiltroNumero.PlaceholderText = "";
-            this.txtFiltroNumero.SelectedText = "";
-            this.txtFiltroNumero.Size = new System.Drawing.Size(200, 45);
-            this.txtFiltroNumero.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
-            this.txtFiltroNumero.TabIndex = 21;
-            // 
-            // guna2HtmlLabel3
-            // 
-            this.guna2HtmlLabel3.AutoSize = false;
-            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(446, 65);
-            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(130, 20);
-            this.guna2HtmlLabel3.TabIndex = 23;
-            this.guna2HtmlLabel3.Text = "Categoria";
-            // 
-            // txtCategoria
-            // 
-            this.txtCategoria.BackColor = System.Drawing.Color.Transparent;
-            this.txtCategoria.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
-            this.txtCategoria.BorderThickness = 2;
-            this.txtCategoria.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.txtCategoria.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.txtCategoria.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(237)))), ((int)(((byte)(230)))));
-            this.txtCategoria.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtCategoria.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtCategoria.Font = new System.Drawing.Font("Century Gothic", 10F);
-            this.txtCategoria.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.txtCategoria.IntegralHeight = false;
-            this.txtCategoria.ItemHeight = 34;
-            this.txtCategoria.Location = new System.Drawing.Point(446, 95);
-            this.txtCategoria.Name = "txtCategoria";
-            this.txtCategoria.Size = new System.Drawing.Size(150, 40);
-            this.txtCategoria.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
-            this.txtCategoria.TabIndex = 22;
+            this.btnFiltrar.BorderRadius = 15;
+            this.btnFiltrar.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.btnFiltrar.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
+            this.btnFiltrar.CheckedState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
+            this.btnFiltrar.CustomBorderThickness = new System.Windows.Forms.Padding(0, 0, 0, 5);
+            this.btnFiltrar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnFiltrar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnFiltrar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnFiltrar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnFiltrar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
+            this.btnFiltrar.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFiltrar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(243)))), ((int)(((byte)(238)))));
+            this.btnFiltrar.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
+            this.btnFiltrar.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
+            this.btnFiltrar.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(243)))), ((int)(((byte)(238)))));
+            this.btnFiltrar.Location = new System.Drawing.Point(883, 90);
+            this.btnFiltrar.Name = "btnFiltrar";
+            this.btnFiltrar.PressedColor = System.Drawing.Color.Empty;
+            this.btnFiltrar.Size = new System.Drawing.Size(180, 45);
+            this.btnFiltrar.TabIndex = 8;
+            this.btnFiltrar.Text = "Filtrar";
+            this.btnFiltrar.Click += new System.EventHandler(this.btnFiltrar_Click);
             // 
             // guna2HtmlLabel4
             // 
@@ -298,122 +268,154 @@
             this.txtEstado.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.txtEstado.TabIndex = 24;
             // 
-            // btnAñadir
+            // guna2HtmlLabel3
             // 
-            this.btnAñadir.BorderRadius = 15;
-            this.btnAñadir.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.btnAñadir.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
-            this.btnAñadir.CheckedState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
-            this.btnAñadir.CustomBorderThickness = new System.Windows.Forms.Padding(0, 0, 0, 5);
-            this.btnAñadir.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnAñadir.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnAñadir.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnAñadir.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnAñadir.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
-            this.btnAñadir.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAñadir.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(243)))), ((int)(((byte)(238)))));
-            this.btnAñadir.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
-            this.btnAñadir.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
-            this.btnAñadir.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(243)))), ((int)(((byte)(238)))));
-            this.btnAñadir.Location = new System.Drawing.Point(895, 87);
-            this.btnAñadir.Name = "btnAñadir";
-            this.btnAñadir.PressedColor = System.Drawing.Color.Empty;
-            this.btnAñadir.Size = new System.Drawing.Size(180, 45);
-            this.btnAñadir.TabIndex = 7;
-            this.btnAñadir.Text = "Añadir productor";
+            this.guna2HtmlLabel3.AutoSize = false;
+            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(446, 65);
+            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(130, 20);
+            this.guna2HtmlLabel3.TabIndex = 23;
+            this.guna2HtmlLabel3.Text = "Categoria";
             // 
-            // btnFiltrar
+            // txtCategoria
             // 
-            this.btnFiltrar.BorderRadius = 15;
-            this.btnFiltrar.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.btnFiltrar.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
-            this.btnFiltrar.CheckedState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
-            this.btnFiltrar.CustomBorderThickness = new System.Windows.Forms.Padding(0, 0, 0, 5);
-            this.btnFiltrar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnFiltrar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnFiltrar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnFiltrar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnFiltrar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
-            this.btnFiltrar.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFiltrar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(243)))), ((int)(((byte)(238)))));
-            this.btnFiltrar.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
-            this.btnFiltrar.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
-            this.btnFiltrar.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(243)))), ((int)(((byte)(238)))));
-            this.btnFiltrar.Location = new System.Drawing.Point(883, 90);
-            this.btnFiltrar.Name = "btnFiltrar";
-            this.btnFiltrar.PressedColor = System.Drawing.Color.Empty;
-            this.btnFiltrar.Size = new System.Drawing.Size(180, 45);
-            this.btnFiltrar.TabIndex = 8;
-            this.btnFiltrar.Text = "Filtrar";
+            this.txtCategoria.BackColor = System.Drawing.Color.Transparent;
+            this.txtCategoria.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
+            this.txtCategoria.BorderThickness = 2;
+            this.txtCategoria.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.txtCategoria.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.txtCategoria.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(237)))), ((int)(((byte)(230)))));
+            this.txtCategoria.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtCategoria.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtCategoria.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.txtCategoria.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.txtCategoria.IntegralHeight = false;
+            this.txtCategoria.ItemHeight = 34;
+            this.txtCategoria.Location = new System.Drawing.Point(446, 95);
+            this.txtCategoria.Name = "txtCategoria";
+            this.txtCategoria.Size = new System.Drawing.Size(150, 40);
+            this.txtCategoria.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
+            this.txtCategoria.TabIndex = 22;
             // 
-            // dgvProductores
+            // txtFiltroNumero
             // 
-            this.dgvProductores.AllowUserToAddRows = false;
-            this.dgvProductores.AllowUserToDeleteRows = false;
-            this.dgvProductores.AllowUserToOrderColumns = true;
-            this.dgvProductores.AllowUserToResizeColumns = false;
-            this.dgvProductores.AllowUserToResizeRows = false;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
-            this.dgvProductores.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
-            this.dgvProductores.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
-            this.dgvProductores.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(237)))), ((int)(((byte)(230)))));
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(78)))), ((int)(((byte)(69)))));
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvProductores.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
-            this.dgvProductores.ColumnHeadersHeight = 40;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(243)))), ((int)(((byte)(238)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvProductores.DefaultCellStyle = dataGridViewCellStyle6;
-            this.dgvProductores.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dgvProductores.Location = new System.Drawing.Point(10, 330);
-            this.dgvProductores.MultiSelect = false;
-            this.dgvProductores.Name = "dgvProductores";
-            this.dgvProductores.ReadOnly = true;
-            this.dgvProductores.RowHeadersVisible = false;
-            this.dgvProductores.RowHeadersWidth = 40;
-            this.dgvProductores.RowTemplate.Height = 34;
-            this.dgvProductores.Size = new System.Drawing.Size(1090, 470);
-            this.dgvProductores.TabIndex = 28;
-            this.dgvProductores.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.dgvProductores.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(237)))), ((int)(((byte)(230)))));
-            this.dgvProductores.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
-            this.dgvProductores.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dgvProductores.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
-            this.dgvProductores.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.dgvProductores.ThemeStyle.HeaderStyle.Height = 40;
-            this.dgvProductores.ThemeStyle.ReadOnly = true;
-            this.dgvProductores.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(243)))), ((int)(((byte)(238)))));
-            this.dgvProductores.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dgvProductores.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
-            this.dgvProductores.ThemeStyle.RowsStyle.Height = 34;
-            this.dgvProductores.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
-            this.dgvProductores.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
+            this.txtFiltroNumero.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
+            this.txtFiltroNumero.BorderRadius = 10;
+            this.txtFiltroNumero.BorderThickness = 2;
+            this.txtFiltroNumero.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtFiltroNumero.DefaultText = "";
+            this.txtFiltroNumero.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtFiltroNumero.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtFiltroNumero.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtFiltroNumero.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtFiltroNumero.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(237)))), ((int)(((byte)(230)))));
+            this.txtFiltroNumero.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtFiltroNumero.Font = new System.Drawing.Font("Century Gothic", 9F);
+            this.txtFiltroNumero.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtFiltroNumero.Location = new System.Drawing.Point(15, 90);
+            this.txtFiltroNumero.Name = "txtFiltroNumero";
+            this.txtFiltroNumero.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
+            this.txtFiltroNumero.PlaceholderText = "";
+            this.txtFiltroNumero.SelectedText = "";
+            this.txtFiltroNumero.Size = new System.Drawing.Size(200, 45);
+            this.txtFiltroNumero.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
+            this.txtFiltroNumero.TabIndex = 21;
+            // 
+            // guna2HtmlLabel2
+            // 
+            this.guna2HtmlLabel2.AutoSize = false;
+            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(15, 65);
+            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(130, 20);
+            this.guna2HtmlLabel2.TabIndex = 20;
+            this.guna2HtmlLabel2.Text = "Numero";
+            // 
+            // guna2HtmlLabel20
+            // 
+            this.guna2HtmlLabel20.AutoSize = false;
+            this.guna2HtmlLabel20.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel20.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
+            this.guna2HtmlLabel20.Location = new System.Drawing.Point(256, 65);
+            this.guna2HtmlLabel20.Name = "guna2HtmlLabel20";
+            this.guna2HtmlLabel20.Size = new System.Drawing.Size(130, 20);
+            this.guna2HtmlLabel20.TabIndex = 19;
+            this.guna2HtmlLabel20.Text = "Altitud";
+            // 
+            // txtAltitud
+            // 
+            this.txtAltitud.BackColor = System.Drawing.Color.Transparent;
+            this.txtAltitud.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
+            this.txtAltitud.BorderThickness = 2;
+            this.txtAltitud.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.txtAltitud.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.txtAltitud.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(237)))), ((int)(((byte)(230)))));
+            this.txtAltitud.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtAltitud.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtAltitud.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.txtAltitud.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.txtAltitud.IntegralHeight = false;
+            this.txtAltitud.ItemHeight = 34;
+            this.txtAltitud.Location = new System.Drawing.Point(256, 95);
+            this.txtAltitud.Name = "txtAltitud";
+            this.txtAltitud.Size = new System.Drawing.Size(150, 40);
+            this.txtAltitud.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
+            this.txtAltitud.TabIndex = 1;
+            // 
+            // txtFiltroTexto
+            // 
+            this.txtFiltroTexto.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
+            this.txtFiltroTexto.BorderRadius = 10;
+            this.txtFiltroTexto.BorderThickness = 2;
+            this.txtFiltroTexto.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtFiltroTexto.DefaultText = "";
+            this.txtFiltroTexto.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtFiltroTexto.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtFiltroTexto.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtFiltroTexto.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtFiltroTexto.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(237)))), ((int)(((byte)(230)))));
+            this.txtFiltroTexto.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtFiltroTexto.Font = new System.Drawing.Font("Century Gothic", 9F);
+            this.txtFiltroTexto.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtFiltroTexto.Location = new System.Drawing.Point(15, 17);
+            this.txtFiltroTexto.Name = "txtFiltroTexto";
+            this.txtFiltroTexto.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
+            this.txtFiltroTexto.PlaceholderText = "Buscar por nombre de productor, cedula, correo, nombre de finca o ubicacion  ";
+            this.txtFiltroTexto.SelectedText = "";
+            this.txtFiltroTexto.Size = new System.Drawing.Size(1060, 45);
+            this.txtFiltroTexto.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
+            this.txtFiltroTexto.TabIndex = 0;
+            // 
+            // guna2Separator1
+            // 
+            this.guna2Separator1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
+            this.guna2Separator1.FillThickness = 5;
+            this.guna2Separator1.Location = new System.Drawing.Point(10, 50);
+            this.guna2Separator1.Name = "guna2Separator1";
+            this.guna2Separator1.Size = new System.Drawing.Size(1090, 12);
+            this.guna2Separator1.TabIndex = 3;
+            // 
+            // guna2HtmlLabel1
+            // 
+            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Century Gothic", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(393, 5);
+            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(325, 38);
+            this.guna2HtmlLabel1.TabIndex = 2;
+            this.guna2HtmlLabel1.Text = "LISTA DE PRODUCTORES\r\n";
             // 
             // guna2Elipse1
             // 
             this.guna2Elipse1.BorderRadius = 35;
             this.guna2Elipse1.TargetControl = this.dgvProductores;
-            // 
-            // guna2HtmlLabel5
-            // 
-            this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel5.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Italic);
-            this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(39)))), ((int)(((byte)(35)))));
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(720, 830);
-            this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(382, 17);
-            this.guna2HtmlLabel5.TabIndex = 29;
-            this.guna2HtmlLabel5.Text = "Café Dorado OS - Versión 1.0.0 | Desarrollado por Amaru Hernández";
             // 
             // frmProductores
             // 
@@ -426,10 +428,11 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmProductores";
             this.Text = "frmProductores";
+            this.Load += new System.EventHandler(this.frmProductores_Load);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
-            this.guna2Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvProductores)).EndInit();
+            this.guna2Panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

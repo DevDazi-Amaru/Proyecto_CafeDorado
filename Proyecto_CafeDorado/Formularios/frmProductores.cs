@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Proyecto_CafeDorado.Base_de_datos;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -23,5 +24,24 @@ namespace Proyecto_CafeDorado.Formularios
 
         }
 
+        private void Actualizartabla()
+        {
+            DBHelper dBHelper = new DBHelper();
+            dgvProductores.DataSource = dBHelper.MostrarDatos("SELECT * FROM PRODUCTORES");
+        }
+
+        private void frmProductores_Load(object sender, EventArgs e)
+        {
+            Actualizartabla();
+            if (SesionActiva.Rol == "Administrador")
+            {
+                btnAgregar.Visible = true;
+            }
+        }
+
+        private void btnFiltrar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
