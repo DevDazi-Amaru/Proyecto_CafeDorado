@@ -100,5 +100,15 @@ namespace Proyecto_CafeDorado.Formularios
             filtrartabla(filtroquery);
 
         }
+
+        private void guna2HtmlLabel3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtCategoria_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

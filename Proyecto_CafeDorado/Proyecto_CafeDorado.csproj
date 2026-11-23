@@ -84,6 +84,12 @@
     <Compile Include="Formularios\frmProductores.Designer.cs">
       <DependentUpon>frmProductores.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\frmRecepciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmRecepciones.Designer.cs">
+      <DependentUpon>frmRecepciones.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmLoading.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,6 +112,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frmProductores.resx">
       <DependentUpon>frmProductores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmRecepciones.resx">
+      <DependentUpon>frmRecepciones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmLoading.resx">
       <DependentUpon>frmLoading.cs</DependentUpon>

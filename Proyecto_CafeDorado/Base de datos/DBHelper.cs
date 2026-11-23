@@ -80,15 +80,24 @@ namespace Proyecto_CafeDorado
         public DataTable MostrarDatosComando(SqlCommand comandoVieneDeAfuera)
         {
             DataTable tablaVirtual = new DataTable();
-            using (SqlConnection conexion = new SqlConnection(cadenaConexion))
-            {
-                comandoVieneDeAfuera.Connection = conexion;
 
-                using (SqlDataAdapter adaptador = new SqlDataAdapter(comandoVieneDeAfuera))
+            try
+            {
+                using (SqlConnection conexion = new SqlConnection(cadenaConexion))
                 {
-                    adaptador.Fill(tablaVirtual);
+                    comandoVieneDeAfuera.Connection = conexion;
+
+                    using (SqlDataAdapter adaptador = new SqlDataAdapter(comandoVieneDeAfuera))
+                    {
+                        adaptador.Fill(tablaVirtual);
+                    }
                 }
             }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al cargar datos: " + ex.Message, "Error BD", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
             return tablaVirtual;
         }
     }
