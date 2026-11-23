@@ -71,7 +71,7 @@ namespace Proyecto_CafeDorado
                     }
                     catch (Exception ex)
                     {
-                        MessageBox.Show("Error al guardar: " + ex.Message, "Error BD", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show("Error al realizar operación: " + ex.Message, "Error BD", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         return false;
                     }
                 }
